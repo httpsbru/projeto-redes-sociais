@@ -42,3 +42,22 @@ main{
     width: 269px;
     height: 470px;
 }
+
+section#redes-sociais{
+    text-align: right;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.726);
+    transform: translate(-3px, -3px); /*pra mexer quando passa o mouse*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
+    transition: transform .5s; /*pra ficar mais suave quando passar o mouse, indicamos que o transform vai ser de 0.5s*/
+}
